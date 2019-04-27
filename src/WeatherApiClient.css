@@ -1,0 +1,21 @@
+.WeatherMain{
+    margin-top: 20px;
+    margin-left: 40px; 
+    margin-right: 40px;
+}
+
+.PostTitle{
+font-size: x-large;
+padding-bottom: 8px;
+font-style: italic;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: darkcyan;
+}
+
+.PostBody{
+font-size: medium;
+}
+
+.Post{
+    margin-top: 20px;
+}
