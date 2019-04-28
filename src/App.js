@@ -1,10 +1,18 @@
-import React, { Component, useState} from 'react';
-import './App.css';
-import { FetchWeather } from './WeatherApiClient';
+import React, { Component, useState } from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+// import './App.css';
+import Posts from './Posts';
+import FormPost from './FormPost';
 
 function App() {
   return (
-    <div className="App">
+    <div className="Main">
+      <Router>
+        <Link to="/posts">Get All Posts</Link>
+        <Route path="/posts" component={Posts} />
+      </Router>
+      <FormPost />
     </div>
   );
 }
